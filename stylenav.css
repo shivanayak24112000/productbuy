@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: orange;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the search container */
+.search-container {
+    float: right;
+   
+}
+
+/* Style the search input and button */
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 14px;
+    border: none;
+}
+
+button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: #ddd;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+/* Apply hover effect to the nav button */
+nav button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+footer {
+    background-color:orange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#names{
+
+    color: black;
+   
+}
+
+.class-logon{
+    color:red;
+}
+body{
+    background-color: rgb(240, 233, 231);
+}
+
+/* Add your styling for the modal and overlay */
